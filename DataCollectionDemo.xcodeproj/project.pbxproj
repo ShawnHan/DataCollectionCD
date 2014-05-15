@@ -22,6 +22,19 @@
 		CD85D01619247C8500BC72DF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD85CFFA19247C8500BC72DF /* CoreData.framework */; };
 		CD85D01E19247C8500BC72DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD85D01C19247C8500BC72DF /* InfoPlist.strings */; };
 		CD85D02019247C8500BC72DF /* DataCollectionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85D01F19247C8500BC72DF /* DataCollectionDemoTests.m */; };
+		CD85D02C19247CA500BC72DF /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85D02A19247CA400BC72DF /* ScanViewController.m */; };
+		CD85D02D19247CA500BC72DF /* ScanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD85D02B19247CA500BC72DF /* ScanViewController.xib */; };
+		CD85D03119247CC200BC72DF /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85D02F19247CC200BC72DF /* DataViewController.m */; };
+		CD85D03219247CC200BC72DF /* DataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD85D03019247CC200BC72DF /* DataViewController.xib */; };
+		CD85D03519248D9D00BC72DF /* CollectData.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85D03419248D9D00BC72DF /* CollectData.m */; };
+		CD85D0391924986900BC72DF /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85D0371924986900BC72DF /* ResultViewController.m */; };
+		CD85D03A1924986900BC72DF /* ResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD85D0381924986900BC72DF /* ResultViewController.xib */; };
+		CD85D0431924B2C700BC72DF /* BEMAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85D03C1924B2C700BC72DF /* BEMAnimations.m */; };
+		CD85D0441924B2C700BC72DF /* BEMCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85D03E1924B2C700BC72DF /* BEMCircle.m */; };
+		CD85D0451924B2C700BC72DF /* BEMLine.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85D0401924B2C700BC72DF /* BEMLine.m */; };
+		CD85D0461924B2C700BC72DF /* BEMSimpleLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85D0421924B2C700BC72DF /* BEMSimpleLineGraphView.m */; };
+		CD85D04B1924C00E00BC72DF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD85D0491924C00E00BC72DF /* DetailViewController.m */; };
+		CD85D04C1924C00E00BC72DF /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD85D04A1924C00E00BC72DF /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,28 @@
 		CD85D01B19247C8500BC72DF /* DataCollectionDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataCollectionDemoTests-Info.plist"; sourceTree = "<group>"; };
 		CD85D01D19247C8500BC72DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD85D01F19247C8500BC72DF /* DataCollectionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataCollectionDemoTests.m; sourceTree = "<group>"; };
+		CD85D02919247CA400BC72DF /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		CD85D02A19247CA400BC72DF /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		CD85D02B19247CA500BC72DF /* ScanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanViewController.xib; sourceTree = "<group>"; };
+		CD85D02E19247CC200BC72DF /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		CD85D02F19247CC200BC72DF /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		CD85D03019247CC200BC72DF /* DataViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataViewController.xib; sourceTree = "<group>"; };
+		CD85D03319248D9D00BC72DF /* CollectData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectData.h; sourceTree = "<group>"; };
+		CD85D03419248D9D00BC72DF /* CollectData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectData.m; sourceTree = "<group>"; };
+		CD85D0361924986900BC72DF /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		CD85D0371924986900BC72DF /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		CD85D0381924986900BC72DF /* ResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultViewController.xib; sourceTree = "<group>"; };
+		CD85D03B1924B2C700BC72DF /* BEMAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMAnimations.h; sourceTree = "<group>"; };
+		CD85D03C1924B2C700BC72DF /* BEMAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMAnimations.m; sourceTree = "<group>"; };
+		CD85D03D1924B2C700BC72DF /* BEMCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMCircle.h; sourceTree = "<group>"; };
+		CD85D03E1924B2C700BC72DF /* BEMCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMCircle.m; sourceTree = "<group>"; };
+		CD85D03F1924B2C700BC72DF /* BEMLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMLine.h; sourceTree = "<group>"; };
+		CD85D0401924B2C700BC72DF /* BEMLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMLine.m; sourceTree = "<group>"; };
+		CD85D0411924B2C700BC72DF /* BEMSimpleLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEMSimpleLineGraphView.h; sourceTree = "<group>"; };
+		CD85D0421924B2C700BC72DF /* BEMSimpleLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEMSimpleLineGraphView.m; sourceTree = "<group>"; };
+		CD85D0481924C00E00BC72DF /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		CD85D0491924C00E00BC72DF /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CD85D04A1924C00E00BC72DF /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +119,19 @@
 		CD85CFE819247C8500BC72DF = {
 			isa = PBXGroup;
 			children = (
+				CD85D0471924B2CB00BC72DF /* chart */,
+				CD85D0361924986900BC72DF /* ResultViewController.h */,
+				CD85D0371924986900BC72DF /* ResultViewController.m */,
+				CD85D0381924986900BC72DF /* ResultViewController.xib */,
+				CD85D02E19247CC200BC72DF /* DataViewController.h */,
+				CD85D02F19247CC200BC72DF /* DataViewController.m */,
+				CD85D03019247CC200BC72DF /* DataViewController.xib */,
+				CD85D02919247CA400BC72DF /* ScanViewController.h */,
+				CD85D02A19247CA400BC72DF /* ScanViewController.m */,
+				CD85D02B19247CA500BC72DF /* ScanViewController.xib */,
+				CD85D0481924C00E00BC72DF /* DetailViewController.h */,
+				CD85D0491924C00E00BC72DF /* DetailViewController.m */,
+				CD85D04A1924C00E00BC72DF /* DetailViewController.xib */,
 				CD85CFFC19247C8500BC72DF /* DataCollectionDemo */,
 				CD85D01919247C8500BC72DF /* DataCollectionDemoTests */,
 				CD85CFF319247C8500BC72DF /* Frameworks */,
@@ -119,6 +167,8 @@
 				CD85D00619247C8500BC72DF /* AppDelegate.m */,
 				CD85D00B19247C8500BC72DF /* Images.xcassets */,
 				CD85D00819247C8500BC72DF /* DataCollectionDemo.xcdatamodeld */,
+				CD85D03319248D9D00BC72DF /* CollectData.h */,
+				CD85D03419248D9D00BC72DF /* CollectData.m */,
 				CD85CFFD19247C8500BC72DF /* Supporting Files */,
 			);
 			path = DataCollectionDemo;
@@ -151,6 +201,21 @@
 				CD85D01C19247C8500BC72DF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD85D0471924B2CB00BC72DF /* chart */ = {
+			isa = PBXGroup;
+			children = (
+				CD85D03B1924B2C700BC72DF /* BEMAnimations.h */,
+				CD85D03C1924B2C700BC72DF /* BEMAnimations.m */,
+				CD85D03D1924B2C700BC72DF /* BEMCircle.h */,
+				CD85D03E1924B2C700BC72DF /* BEMCircle.m */,
+				CD85D03F1924B2C700BC72DF /* BEMLine.h */,
+				CD85D0401924B2C700BC72DF /* BEMLine.m */,
+				CD85D0411924B2C700BC72DF /* BEMSimpleLineGraphView.h */,
+				CD85D0421924B2C700BC72DF /* BEMSimpleLineGraphView.m */,
+			);
+			name = chart;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +293,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD85D03219247CC200BC72DF /* DataViewController.xib in Resources */,
+				CD85D04C1924C00E00BC72DF /* DetailViewController.xib in Resources */,
+				CD85D02D19247CA500BC72DF /* ScanViewController.xib in Resources */,
 				CD85D00119247C8500BC72DF /* InfoPlist.strings in Resources */,
+				CD85D03A1924986900BC72DF /* ResultViewController.xib in Resources */,
 				CD85D00C19247C8500BC72DF /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,9 +317,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD85D0461924B2C700BC72DF /* BEMSimpleLineGraphView.m in Sources */,
+				CD85D0451924B2C700BC72DF /* BEMLine.m in Sources */,
 				CD85D00719247C8500BC72DF /* AppDelegate.m in Sources */,
+				CD85D0431924B2C700BC72DF /* BEMAnimations.m in Sources */,
+				CD85D0391924986900BC72DF /* ResultViewController.m in Sources */,
 				CD85D00319247C8500BC72DF /* main.m in Sources */,
 				CD85D00A19247C8500BC72DF /* DataCollectionDemo.xcdatamodeld in Sources */,
+				CD85D02C19247CA500BC72DF /* ScanViewController.m in Sources */,
+				CD85D03519248D9D00BC72DF /* CollectData.m in Sources */,
+				CD85D03119247CC200BC72DF /* DataViewController.m in Sources */,
+				CD85D0441924B2C700BC72DF /* BEMCircle.m in Sources */,
+				CD85D04B1924C00E00BC72DF /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +525,7 @@
 				CD85D02519247C8500BC72DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD85D02619247C8500BC72DF /* Build configuration list for PBXNativeTarget "DataCollectionDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +534,7 @@
 				CD85D02819247C8500BC72DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
